@@ -5,7 +5,7 @@ public class WeChat {
 		Scanner input = new Scanner(System.in);
 		double total;//红包总金额
 		int num;//红包个数
-		while(true) {// 输入满足要求的红包总金额（total）及数目（numb）
+		while(true) {// 输入满足要求的红包总金额（total）及数目（num）
 			System.out.print("请输入红包金额(保留两位小数)：");
 			total = input.nextDouble();
 			System.out.print("请输入红包份数：");
